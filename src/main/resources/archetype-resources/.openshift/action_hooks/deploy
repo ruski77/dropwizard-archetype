@@ -1,0 +1,10 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+
+#!/bin/sh
+
+cd $OPENSHIFT_REPO_DIR
+
+sed -i 's/@OPENSHIFT_DIY_IP@/'"$OPENSHIFT_DIY_IP"'/g' target/classes/${artifactId}_service_prod.yml
+sed -i 's/@OPENSHIFT_DIY_PORT@/'"$OPENSHIFT_DIY_PORT"'/g' target/classes/${artifactId}_service_prod.yml
