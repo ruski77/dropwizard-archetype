@@ -26,7 +26,7 @@
         <include>**/*.txt</include>
       </includes>
     </fileSet>
-    <fileSet encoding="UTF-8">
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
         <include>**/*.keystore</include>
@@ -50,7 +50,8 @@
       <includes>
         <include>.gitignore</include>
         <include>README.md</include>
-        <include>startLocalServer.sh</include>
+        <include>fabfile.py</include>
+        <include>__init__.py</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">

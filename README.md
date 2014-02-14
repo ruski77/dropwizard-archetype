@@ -1,7 +1,14 @@
-== Build Archetype ==
+Dropwizard Archetype
+====================
 
-mvn install
+Steps to build Dropwizard Archetype
 
-cd ..
+1. cd dropwizard-archetype
 
-mvn archetype:generate -DarchetypeCatalog=local
+2. mvn install
+
+3. cd ..
+
+4. mvn archetype:generate -DarchetypeCatalog=local
+
+5. Choose option called dropwizard-archetype

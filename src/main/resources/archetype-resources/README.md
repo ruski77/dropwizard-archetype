@@ -1,12 +1,32 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-== Dropwizard Archetype ==
+${model} Service
+===================
 
-cd dropwizard-archetype
-mvn install
-cd ..
-mvn archetype:generate -DarchetypeCatalog=local
+This restful web service is build on the Dropwizard framework.
+
+== Add Project to Git ==
+
+        cd loyalty_service
+
+        git init
+
+        git add *
+
+        git status
+
+        git commit -m "Initial Commit"
+
+        Go to github and create repo
+
+        git remote add origin https://github.com/ruski77/loyalty_service.git
+
+        git push origin master
+
+        remove local directory
+
+
 
 
 
